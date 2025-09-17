@@ -1,0 +1,46 @@
+.main {
+display: flex;
+}
+
+.col {
+    flex: 1;
+    padding: 20px 5px 10px 50px;
+    gap: 20px;
+    border: 1px black solid;
+}
+.col1 {
+    background-color: red;
+}
+
+.col2{
+    background-color: yellow;
+    box-shadow: 10px 10px black;
+}
+
+h2 {
+   color: blue; 
+}
+
+.header2 {
+    color: red;
+    font-style: italic;
+}
+
+body {
+    background-color: aqua;
+}
+
+.zdjecie {
+    width: 200px;
+}
+
+.przycisk {
+    width: 100px;
+    height: 50px;
+}
+
+#obraz img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
