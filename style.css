@@ -2,6 +2,9 @@
 display: flex;
 }
 
+.mojanowasuperclassa {
+    color: #fasdfc;
+|
 .col {
     flex: 1;
     padding: 20px 5px 10px 50px;
