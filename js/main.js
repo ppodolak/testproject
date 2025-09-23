@@ -27,10 +27,12 @@ $(document).ready(function () {
           $("#obraz").html("<img src='/my-photo.jpg' />")
         })
         .always(function () {
-          console.log("ja się zawsze wykonam bez względu czy sukces czy bląd")
+          console.log("ja się zawsze wykonam bez względu na to czy sukces czy bląd")
         })
 
     }
+
+
 
     $("#pokaż-obraz").on("click", function () {
       loadimage();
